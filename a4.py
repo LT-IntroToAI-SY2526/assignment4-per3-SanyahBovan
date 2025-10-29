@@ -12,10 +12,31 @@ class TTTBoard:
 
 
     """
-def __init__(self, name):
-       
+def __init__(self):
+       """ Initialize a 3x3 tic tac toe board with 9 '*' """
+    self.board = ['*'] * 9
 
-    pass
+def __str__(self):
+    """Return a string representation of the board"""
+    return f"{self.board[0]} {self.board[1]} {self.board[2]} {self.board[3]}{self.board[4]} {self.board[5]}{self.board[6]} {self.board[7]} {self.board[8]}"
+
+
+def make_move(self, player, pos):
+    """
+    Args:
+        player - string "X" or "O"
+        pos - int 0-8 representing board positions
+
+        Returns:
+            True if a move was made, False otherwise
+    """
+    if 0 <= pos <= 8 and self.board[pos] == '*'
+        self.board[pos] = player
+        return True
+    return False
+def game_over(self):
+    """ Check if game over, someone won or the board is full """
+    return self.has_won("X") or self.has_won("O") or '*' not in self.board 
 
 
 def play_tic_tac_toe() -> None:
