@@ -22,12 +22,12 @@ Remember: This assignment introduces object-oriented programming concepts that w
 | Criteria | Points Possible | Points Earned | Comments |
 |----------|----------------|---------------|----------|
 | **Programming Implementation** | | | |
-| TTTBoard Class Methods | 4 | | |
-| Test Cases Passing | 3 | | |
+| TTTBoard Class Methods | 4 |2 |Missing has_won and an indentation error in init |
+| Test Cases Passing | 3 | 2| |
 | **Reflection & Understanding** | | | |
-| Programming Challenge Reflection | 1 | | |
-| Design & Strategy Understanding | 2 | | |
-| **TOTAL** | **10** | | |
+| Programming Challenge Reflection | 1 |1 | |
+| Design & Strategy Understanding | 2 |0 | Missing questions 2 and 3 |
+| **TOTAL** | **10** | 5| |
 
 ---
 
